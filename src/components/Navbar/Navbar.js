@@ -1,4 +1,7 @@
 import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+
+import App from '../../App';
 
 import './Navbar.css';
 // TODO: Tomorrow begin working on navbar functionality
@@ -13,10 +16,13 @@ const NavBar = () => {
                     </a>
                 </div>
                 <div className="right-side">
-                    <a href="/">Home</a>
-                    <a href="/">Services</a>
-                    <a href="/">Products</a>
-                    <a href="/" className="signup-text">SIGN UP</a>
+                    <Route>
+                        <Link to="/home">Home</Link>
+                        <Link to="/services">Services</Link>
+                        <Link to="/products">Products</Link>
+                        <Link to="/signup" className="signup-text">SIGN UP</Link>
+                        {/* <a href="/" className="signup-text">SIGN UP</a> */}
+                    </Route>
                 </div>
             </div>
         </div>
