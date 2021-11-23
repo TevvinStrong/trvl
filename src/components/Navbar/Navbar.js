@@ -1,8 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-// import App from '../../App';
-// import Services from '../Navbar/ServicesComponent/Services';
+// import Services from './ServicesComponent/Services';
 
 import './Navbar.css';
 
@@ -18,7 +17,7 @@ const NavBar = () => {
                 </div>
                 <div className="right-side">
                     <nav>
-                        <NavLink to="/home">Home</NavLink>
+                        <NavLink to="/" exact >Home</NavLink>
                         <NavLink to="/services">Services</NavLink>
                         <NavLink to="/products">Products</NavLink>
                         <NavLink to="/signup" className="signup-text">SIGN UP</NavLink>
