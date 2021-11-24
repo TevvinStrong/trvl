@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route exact path='/services' component={Services} />
+        <Route exact path='/services' element={<Services />} />
       </Routes>
     </div>
   );
