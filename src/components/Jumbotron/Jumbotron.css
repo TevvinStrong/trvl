@@ -6,3 +6,32 @@
     height: 500px;
     filter: brightness(0.30);
 }
+
+.jumbotron-content h1, p {
+    color: white;
+    margin-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.jumbotron-content h1 {
+    font-size: 50px;
+    padding-top: 9rem;
+}
+
+.jumbotron-content p {
+    font-size: 20px;
+    margin-left: 20%;
+    padding-top: 10px;
+}
+
+.jumbotron-content button {
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 10px;
+    background-color: #FF665A;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+}
