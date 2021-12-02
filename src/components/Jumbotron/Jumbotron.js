@@ -4,7 +4,10 @@ const Jumbotron = () => {
     return (
         <>
             <div className="jumbotron">
-                <h1>Display something here</h1>
+                <div className="jumbotron-content">
+                    <h1>EXPLORE THE WORLD</h1>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                </div>
             </div>
         </>
     );
