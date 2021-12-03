@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 // Importing Components
+import Collage from '../src/Components/Collage/Collage';
 import Jumbotron from './Components/Jumbotron/Jumbotron';
 import NavBar from './Components/Navbar/Navbar';
 import Products from './Components/Navbar/ProductsPage/Products';
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Jumbotron />
+      <Collage />
       <Routes>
         <Route exact path='/services' element={<Services />} />
         <Route exact path='/products' element={<Products />} />
