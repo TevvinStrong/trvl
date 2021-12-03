@@ -35,6 +35,10 @@ a {
     cursor: pointer;
 }
 
+.active {
+    color: #FF665A;
+}
+
 .signup-text {
     margin-left: 15px;
     border: 1px solid #ffffff;

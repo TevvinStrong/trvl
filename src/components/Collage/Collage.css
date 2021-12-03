@@ -1,0 +1,9 @@
+.collage-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.collage-content img {
+    width: 25%;
+}

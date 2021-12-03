@@ -1,9 +1,9 @@
 import React from 'react';
 
-import MountainValley from '../../Images/Collage/MountainValleyPexels-photo-1853371.jpeg';
-import Surfers from '../../Images/Collage/SurfersPexels-photo-4321827.jpeg';
-import MountainRange from '../../Images/Collage/MountainValleyPexels-photo-1853371.jpeg';
+import Beach from '../../Images/Collage/BeachPexels-photo-1433052.jpeg';
 import Island from '../../Images/Collage/IslandPexels-photo-931018.jpeg';
+import SailAway from '../../Images/Collage/SailAwayPexels-photo-1122408.jpeg';
+import VacationHome from '../../Images/Collage/VacationHomePexels-photo-1078983.jpeg';
 
 import './Collage.css';
 
@@ -12,10 +12,10 @@ const Collage = () => {
         <>
             <div className="collage">
                 <div className="collage-content">
-                    <img src={MountainValley} alt="Nountain Valley" />
-                    <img src={Surfers} alt="Surfers Surfing in Hawaii" />
-                    <img src={MountainRange} alt="Mountain Range" />
+                    <img src={VacationHome} alt=" Birds eye view of beach vacation home" />
+                    <img src={Beach} alt="Beach shore line" />
                     <img src={Island} alt="Island Beach" />
+                    <img src={SailAway} alt="Sail Boats sailing close to island" />
                 </div>
             </div>
         </>
