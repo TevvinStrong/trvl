@@ -44,3 +44,9 @@ a {
     border: 1px solid #ffffff;
     padding: 10px 20px !important;
 }
+
+.signup-text:hover {
+    background-color: #FF665A;
+    color: white;
+    border: none;
+}

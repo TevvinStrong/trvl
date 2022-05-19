@@ -1,10 +1,10 @@
 .jumbotron {
-    background-image: url(../../Images/Jumbotron/pexels-photo-9959230.jpeg);
+    background-image: url(../../Images/Jumbotron/TropicalPexels-photo-2346015.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    filter: brightness(0.50);
+    height: 100vh;
+    /* filter: brightness(0.50); */
 }
 
 .jumbotron-content h1, p {
@@ -16,7 +16,7 @@
 
 .jumbotron-content h1 {
     font-size: 50px;
-    padding-top: 9rem;
+    padding-top: 35vh;
 }
 
 .jumbotron-content p {

@@ -1,9 +1,11 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 
-import Beach from '../../Images/Collage/BeachPexels-photo-1433052.jpeg';
-import Island from '../../Images/Collage/IslandPexels-photo-931018.jpeg';
+import Boat from '../../Images/Collage/BoatPexels-photo-3876404.jpeg';
+import Desert from '../../Images/Collage/DesertPexels-photo-4869960.jpeg';
 import SailAway from '../../Images/Collage/SailAwayPexels-photo-1122408.jpeg';
-import VacationHome from '../../Images/Collage/VacationHomePexels-photo-1078983.jpeg';
+import SoccerField from '../../Images/Collage/SoccerFieldPexels-photo-2641705.jpeg';
+import Waterfall from '../../Images/Collage/WaterfallPexels-photo-4227875.jpeg';
 
 import './Collage.css';
 
@@ -12,10 +14,12 @@ const Collage = () => {
         <>
             <div className="collage">
                 <div className="collage-content">
-                    <img src={VacationHome} alt=" Birds eye view of beach vacation home" />
-                    <img src={Beach} alt="Beach shore line" />
-                    <img src={Island} alt="Island Beach" />
+                    <h1>Check out these destinations</h1>
+                    <img src={Waterfall} alt="Photo of a person stading in front of a waterfall" />
+                    <img src={Boat} alt="Aerial photo of a boat in the ocean" />
                     <img src={SailAway} alt="Sail Boats sailing close to island" />
+                    <img src={SoccerField} alt="Aerial photo of a soccer field" />
+                    <img src={Desert} alt="Photo of a camalback exchurange" />
                 </div>
             </div>
         </>
