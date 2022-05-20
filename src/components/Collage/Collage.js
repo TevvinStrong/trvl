@@ -14,12 +14,15 @@ const Collage = () => {
         <>
             <div className="collage">
                 <div className="collage-content">
-                    <h1>Check out these destinations</h1>
-                    <img src={Waterfall} alt="Photo of a person stading in front of a waterfall" />
-                    <img src={Boat} alt="Aerial photo of a boat in the ocean" />
-                    <img src={SailAway} alt="Sail Boats sailing close to island" />
-                    <img src={SoccerField} alt="Aerial photo of a soccer field" />
-                    <img src={Desert} alt="Photo of a camalback exchurange" />
+                <h1>Check out these destinations</h1>
+                    <div className="collage-content-grid">
+                        <img className='row1' src={Waterfall} alt="Photo of a person stading in front of a waterfall" />
+                        <img className='row1' src={Boat} alt="Aerial photo of a boat in the ocean" />
+                        <br /> {/* Cheap fix for 2/3 grid layout */}
+                        <img className='row2' src={SailAway} alt="Sail Boats sailing close to island" />
+                        <img className='row2' src={SoccerField} alt="Aerial photo of a soccer field" />
+                        <img className='row2' src={Desert} alt="Photo of a camalback exchurange" />
+                    </div>
                 </div>
             </div>
         </>

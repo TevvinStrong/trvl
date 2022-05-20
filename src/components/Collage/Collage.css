@@ -1,9 +1,34 @@
 .collage-content {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; */
+}
+
+.collage-content h1 {
+    padding: 100px 0 100px 0;
+    font-size: 25px;
+    font-family: system-ui; /* This may need to change later on */
+    text-align: center;
+}
+
+.collage-content-grid {
+    justify-items: center;
+    padding: 0 5% 5% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "card card"
+      "card card card";
+}
+
+.collage-content-grid .row1 {
+    margin-left: 95%;
 }
 
 .collage-content img {
-    width: 25%;
+    width: 72%;
+    height: 64%;
+    border-radius: 5px;
 }
