@@ -43,6 +43,7 @@ a {
     margin-left: 15px;
     border: 1px solid #ffffff;
     padding: 10px 20px !important;
+    border-radius: 5px;
 }
 
 .signup-text:hover {
