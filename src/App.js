@@ -6,7 +6,7 @@ import Jumbotron from './Components/Jumbotron/Jumbotron';
 import NavBar from './Components/Navbar/Navbar';
 import Products from './Components/Navbar/ProductsPage/Products';
 import Services from './Components/Navbar/ServicesPage/Services';
-import SignUp from './Components/Navbar/SignUpPage/SignUp';
+import SignIn from './Components/Navbar/SignInPage/SignIn';
 
 import './App.css';
 
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route exact path='/services' element={<Services />} />
         <Route exact path='/products' element={<Products />} />
-        <Route exact path='/signup' element={<SignUp />} />
+        <Route exact path='/signin' element={<SignIn />} />
       </Routes>
     </div>
   );
